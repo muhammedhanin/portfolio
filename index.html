@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Muhammed Hanin, a B.Tech Computer Science and Engineering student.">
+    <title>Muhammed Hanin | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <div class="logo">MH<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero fade-in">
+            <div class="hero-content">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Muhammed Hanin</h1>
+                <h2 class="role">
+                    <span class="typing-text"></span><span class="cursor">&nbsp;</span>
+                </h2>
+                <p class="hero-description">
+                    A passionate B.Tech Computer Science and Engineering student focused on building innovative, efficient, and scalable web solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="resume.pdf" target="_blank" class="btn btn-secondary">Download CV</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/muhammedhanin" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/muhammedhanin" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:muhammedhaninpk@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-wrapper" title="Looking forward to my tech journey!">
+                    <img src="profile.jpeg" alt="Muhammed Hanin" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section fade-in">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card glass">
+                    <div class="skill-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">C</span>
+                        <span class="tag">C++</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">Python</span>
+                    </div>
+                </div>
+                <div class="skill-card glass">
+                    <div class="skill-header">
+                        <i class="fas fa-layer-group"></i>
+                        <h3>Frameworks</h3>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                    </div>
+                </div>
+                <div class="skill-card glass">
+                    <div class="skill-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Platforms</h3>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">MySQL</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">SQLite</span>
+                        <span class="tag">AWS</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Postman</span>
+                    </div>
+                </div>
+                <div class="skill-card glass">
+                    <div class="skill-header">
+                        <i class="fas fa-users"></i>
+                        <h3>Soft Skills</h3>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Leadership</span>
+                        <span class="tag">Problem-Solving</span>
+                        <span class="tag">Communication</span>
+                        <span class="tag">Project Management</span>
+                        <span class="tag">Adaptability</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section fade-in">
+            <h2 class="section-title">Featured <span>Projects</span></h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="far fa-folder-open folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/muhammedhanin/ocms-fullstack/tree/main/ocms" target="_blank" title="GitHub Repo"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Online Course Management System</h3>
+                        <p class="project-date">Feb 2026</p>
+                        <ul class="project-desc">
+                            <li>Built a full-stack course platform with secure JWT authentication and role-based access.</li>
+                            <li>Developed REST APIs for course management, enrollment, and content handling.</li>
+                            <li>Integrated Redis caching and pagination to optimise performance and handle large datasets.</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span><span>Django</span><span>DRF</span><span>Redis</span><span>JWT</span><span>SQLite</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="far fa-folder-open folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/muhammedhanin/raise-ticket-django/tree/main/tickets" target="_blank" title="GitHub Repo"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Raise Ticket System (Django)</h3>
+                        <p class="project-date">Feb 2026</p>
+                        <ul class="project-desc">
+                            <li>Developed a ticket management system with user authentication and role-based access.</li>
+                            <li>Implemented ticket creation, tracking, and status updates (open/closed).</li>
+                            <li>Designed backend using Django models for efficient data handling and workflow management.</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span><span>Django</span><span>SQLite</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Git</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="far fa-folder-open folder-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/muhammedhanin/Cooking-Class-Scheduler-Chatbot" target="_blank" title="GitHub Repo"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Cooking Class Scheduler Chatbot</h3>
+                        <p class="project-date">Jan 2024</p>
+                        <ul class="project-desc">
+                            <li>Built an AI chatbot for booking and managing cooking classes with personalised recommendations.</li>
+                            <li>Incorporated a responsive, visually appealing interface featuring language-themed elements.</li>
+                            <li>Facilitated fast, accurate AI-driven translations suitable for daily communication.</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span><span>Flask</span><span>Gemini API</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="edu-cert-section fade-in">
+            <div class="half-section edu-timeline">
+                <h2 class="section-title">My <span>Education</span></h2>
+                <div class="timeline">
+                    <div class="timeline-item glass">
+                        <div class="timeline-dot"></div>
+                        <p class="timeline-date">Present</p>
+                        <h3>Lovely Professional University</h3>
+                        <p class="timeline-subtitle">Bachelor of Technology - Computer Science and Engineering</p>
+                        <p class="timeline-subtitle">Phagwara, India</p>
+                        <p class="timeline-detail">CGPA: 6.23</p>
+                    </div>
+                    <div class="timeline-item glass">
+                        <div class="timeline-dot"></div>
+                        <p class="timeline-date">Jun 2021 - Mar 2023</p>
+                        <h3>GHSS Panamaram</h3>
+                        <p class="timeline-subtitle">PCMB</p>
+                        <p class="timeline-subtitle">Wayanad, Kerala</p>
+                        <p class="timeline-detail">Percentage: 86%</p>
+                    </div>
+                    <div class="timeline-item glass">
+                        <div class="timeline-dot"></div>
+                        <p class="timeline-date">Jun 2020 - Mar 2021</p>
+                        <h3>SHHSS Dwaraka</h3>
+                        <p class="timeline-subtitle">Matriculation</p>
+                        <p class="timeline-subtitle">Wayanad, Kerala</p>
+                        <p class="timeline-detail">Percentage: 98%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="half-section certs-extra">
+                <h2 class="section-title">Certifications <span>&</span> Activities</h2>
+                <div class="certs-container">
+                    <a href="https://drive.google.com/file/d/1j15kcPf1Bn83v_nJNjtXrgtze077o5xO/view?usp=drive_link" target="_blank" class="cert-card glass" style="text-decoration: none; color: inherit;">
+                        <i class="fas fa-certificate text-accent"></i>
+                        <div>
+                            <h4>Computational Theory</h4>
+                            <p>Language Principle & Finite Automata Theory | <span class="text-gradient">Infosys</span></p>
+                        </div>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1zQCn0MZjTfvEPKXQhRMZ5KM9OKfEnkmB/view?usp=drive_link" target="_blank" class="cert-card glass" style="text-decoration: none; color: inherit;">
+                        <i class="fas fa-certificate text-accent"></i>
+                        <div>
+                            <h4>Master Generative AI</h4>
+                            <p>Generative AI tools | <span class="text-gradient">Udemy</span></p>
+                        </div>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1F2o2_FX7__tZvLKh3s3MQKtx3QUrvdTL/view?usp=drive_link" target="_blank" class="cert-card glass" style="text-decoration: none; color: inherit;">
+                        <i class="fas fa-certificate text-accent"></i>
+                        <div>
+                            <h4>Software Engineering</h4>
+                            <p>Implementation and Testing | <span class="text-gradient">Coursera</span></p>
+                        </div>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1golq3NYqpgIMEo4Kwc3UrRLnmeoL5FfA/view?usp=drive_link" target="_blank" class="cert-card glass" style="text-decoration: none; color: inherit;">
+                        <i class="fas fa-certificate text-accent"></i>
+                        <div>
+                            <h4>Python for Data Science</h4>
+                            <p><span class="text-gradient">Board Infinity</span></p>
+                        </div>
+                    </a>
+                </div>
+
+                <h3 class="subsection-title mt-2">Extracurriculars</h3>
+                <div class="timeline">
+                    <div class="timeline-item activity-card glass">
+                        <div class="timeline-dot"></div>
+                        <p class="timeline-date">Mar 2024</p>
+                        <h4>Binary Blitz– A 24-hour Hackathon</h4>
+                        <p>Recognised for good academic performance and extra-curricular activities at University.</p>
+                    </div>
+                    <div class="timeline-item activity-card glass">
+                        <div class="timeline-dot"></div>
+                        <p class="timeline-date">Feb 2023</p>
+                        <h4>State-level Football Competition</h4>
+                        <p>Played as a captain in state level Football competition.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section fade-in">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="contact-card glass">
+                <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>muhammedhaninpk@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+91-6235747124</span>
+                    </div>
+                </div>
+                <a href="mailto:muhammedhaninpk@gmail.com" class="btn btn-primary lg-btn">Say Hello <i class="fas fa-paper-plane"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built with <i class="fas fa-code text-accent"></i> and <i class="fas fa-heart" style="color:red"></i> by Muhammed Hanin</p>
+        <p class="text-sm">© 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
